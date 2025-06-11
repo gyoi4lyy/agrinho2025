@@ -1,72 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f8f2;
-    color: #333;
-    line-height: 1.6;
+    background: url('img/fundo.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 header {
-    background-color: #5cb85c;
-    color: white;
-    padding: 1rem;
+    background-color: rgba(120, 150, 100, 0.85);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    color: white;
 }
 
-header .logo h1 {
-    font-size: 2rem;
+.logo img {
+    height: 60px;
+    border-radius: 50%;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
+    gap: 20px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-size: 1rem;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.content {
-    padding: 2rem;
-}
-
-.dicas h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.dicas ul {
-    list-style-type: none;
-}
-
-.dicas ul li {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-footer {
-    background-color: #5cb85c;
     color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    font-weight: bold;
+}
+
+.menu-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-icons .icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
