@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Do Campo à Cidade</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do Campo à Cidade</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo Do Campo à Cidade">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Feedbacks</a></li>
+          <li class="dropdown">
+            <a href="#">Dicas</a>
+            <div class="dropdown-content">
+              <a href="#">Horta em casa</a>
+              <a href="#">Compostagem</a>
+            </div>
+          </li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Ferramentas</a></li>
+          <li><a href="#">Loja</a></li>
+        </ul>
+      </nav>
+      <div class="search-user">
+        <input type="text" placeholder="Pesquisar...">
+        <button id="btn-search"><img src="img/lupa.png" alt="Pesquisar"></button>
+        <img src="img/usuario.png" alt="Usuário" class="user-icon">
+      </div>
+    </div>
+  </header>
 
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="Logo Do Campo à Cidade">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Feedbacks</a></li>
-                <li><a href="#">Dicas</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Ferramentas</a></li>
-                <li><a href="#">Loja</a></li>
-            </ul>
-        </nav>
-        <div class="menu-icons">
-            <img src="img/lupa.png" alt="Buscar" class="icon">
-            <img src="img/usuario.png" alt="Usuário" class="icon">
-        </div>
-    </header>
+  <main>
+    <section class="content">
+      <div class="guide-box">
+        <ol>
+          <li><strong>Escolha um local ideal :</strong><br>
+            Procure um espaço que receba bastante luz solar, pelo menos 4 a 6 horas por dia. Pode ser uma varanda, uma janela ensolarada ou até um cantinho do quintal.</li>
 
-    <main>
-        <section class="content">
-             1. Escolha um local ideal :
-Procure um espaço que receba bastante luz solar, pelo menos 4 a 6 horas por dia. Pode ser uma varanda, uma janela ensolarada ou até um cantinho do quintal.
+          <li><strong>Selecione as plantas que deseja cultivar :</strong><br>
+            Opte por hortaliças e temperos que você gosta e que se adaptam ao clima da sua região, como alface, tomate, cebolinha, salsinha, manjericão, entre outros.</li>
 
-             2. Selecione as plantas que deseja cultivar :
-Opte por hortaliças e temperos que você gosta e que se adaptam ao clima da sua região, como alface, tomate, cebolinha, salsinha, manjericão, entre outros.
+          <li><strong>Prepare o solo ou o recipiente :</strong><br>
+            Se for plantar no chão, escolha um solo fértil e bem drenado. Se preferir usar vasos ou jardineiras, escolha recipientes com furos para drenagem e preencha com terra de boa qualidade, misturada com composto orgânico.</li>
 
-             3. Prepare o solo ou o recipiente :
-Se for plantar no chão, escolha um solo fértil e bem drenado. Se preferir usar vasos ou jardineiras, escolha recipientes com furos para drenagem e preencha com terra de boa qualidade, misturada com composto orgânico.
+          <li><strong>Faça o plantio :</strong><br>
+            Siga as instruções de cada planta quanto à profundidade e espaçamento. Geralmente, coloque as sementes ou mudas na terra, cubra com um pouco de terra e regue suavemente.</li>
 
-             4. Faça o plantio :
-Siga as instruções de cada planta quanto à profundidade e espaçamento. Geralmente, coloque as sementes ou mudas na terra, cubra com um pouco de terra e regue suavemente.
+          <li><strong>Cuide da sua hortinha :</strong><br>
+            Regue regularmente, mantendo o solo úmido, mas sem encharcar. Faça a adubação periódica com fertilizantes naturais ou orgânicos para garantir que suas plantas cresçam saudáveis.</li>
 
-             5. Cuide da sua hortinha :
-Regue regularmente, mantendo o solo úmido, mas sem encharcar. Faça a adubação periódica com fertilizantes naturais ou orgânicos para garantir que suas plantas cresçam saudáveis.
+          <li><strong>Monitore e proteja suas plantas :</strong><br>
+            Fique atento a pragas e doenças. Remova folhas danificadas e, se necessário, utilize métodos naturais de controle.</li>
 
-             6. Monitore e proteja suas planta :
-Fique atento a pragas e doenças. Remova folhas danificadas e, se necessário, utilize métodos naturais de controle.
+          <li><strong>Colha na hora certa:</strong><br>
+            Quando as plantas estiverem maduras, colha com cuidado para aproveitar o máximo sabor e frescor.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
 
-             7. Colha na hora certa:
-Quando as plantas estiverem maduras, colha com cuidado para aproveitar o máximo sabor e frescor.
-
-        </section>
-    </main>
-
-    <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
+
