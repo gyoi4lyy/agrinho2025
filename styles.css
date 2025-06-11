@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('img/fundo.png') no-repeat center center fixed;
-    background-size: cover;
+    /* background: url('img/fundo.png') no-repeat center center fixed;
+    background-size: cover; */
 }
 
 header {
@@ -40,4 +40,17 @@ nav ul li a {
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+.content {
+    background: url('img/fundo.jpg') no-repeat center;
+    background-size: cover;
+    padding: 30px;
+    color: #000;
+}
+
+.dicas {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
 }
